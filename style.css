@@ -1,0 +1,12 @@
+.parent:hover .childimage::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    mix-blend-mode: screen;
+    background: #449CF0;
+    background: linear-gradient(180deg, rgba(209,139,223,1) 0%, rgba(68,156,240,1) 100%);
+    opacity: 0.5;
+}
